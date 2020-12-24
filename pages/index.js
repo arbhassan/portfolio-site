@@ -10,9 +10,9 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          {" "}
-          Hello, I’m Hassan. I’m a software engineer and a freelancer .You can
-          contact me on Twitter.
+          Full Stack Software Engineer and Freelance Developer, I help founders
+          add value to society through technology, I love open source and
+          startups.
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
