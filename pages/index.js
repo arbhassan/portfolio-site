@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../components/layout";
 import Link from "next/link";
 import Date from "../components/date";
 import utilStyles from "../styles/utils.module.css";
+import Tech from "../components/Tech";
 
 import { getSortedPostsData } from "../lib/posts";
 
@@ -29,9 +30,10 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           Check out my
-          <a href="https://github.com/arbhassan"> GitHub</a>.
+          <a href="https://github.com/arbhassan"> GitHub Projects</a>.
         </p>
       </section>
+      <Tech />
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
